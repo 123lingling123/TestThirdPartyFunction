@@ -13,4 +13,5 @@
 
     <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:onClick="testQQ" android:text="QQ and QZone"/>
     <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:onClick="testSina" android:text="Sina"/>
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:onClick="testWx" android:text="Wexin"/>
 </LinearLayout>

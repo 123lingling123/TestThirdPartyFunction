@@ -7,6 +7,7 @@ import android.view.View;
 
 import cn.woblog.testthirdpartyfunction.activity.QQActivity;
 import cn.woblog.testthirdpartyfunction.activity.SinaActivity;
+import cn.woblog.testthirdpartyfunction.activity.WxActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -22,5 +23,8 @@ public class MainActivity extends AppCompatActivity {
     }
     public void testSina(View view) {
         startActivity(new Intent(MainActivity.this, SinaActivity.class));
+    }
+    public void testWx(View view) {
+        startActivity(new Intent(MainActivity.this, WxActivity.class));
     }
 }
